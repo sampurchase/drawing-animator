@@ -1,0 +1,16 @@
+.git
+.venv
+**/__pycache__
+*.pyc
+data
+out
+samples
+tests
+tools
+docs
+templates
+template_*
+templates.pdf
+*.zip
+*.mp4
+README.md

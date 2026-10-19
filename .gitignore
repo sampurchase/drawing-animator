@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+out/
+*.mp4
+*.zip
+.DS_Store
+requirements-docker.txt
+requirements-web-docker.txt

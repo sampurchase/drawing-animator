@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Drawing Dance</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>Drawing Dance</h1>
+  <nav id="tabs" aria-label="Sections">
+    <button data-tab="dance" class="tab">Dance</button>
+    <button data-tab="drawings" class="tab">Drawings</button>
+    <button data-tab="videos" class="tab">Videos <span id="videoBadge" class="badge" hidden></span></button>
+    <button data-tab="library" class="tab">Library</button>
+  </nav>
+</header>
+<main id="view"></main>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
